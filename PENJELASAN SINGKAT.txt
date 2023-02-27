@@ -1,0 +1,70 @@
+Database adalah kumpulan informasi yang disimpan di dalam komputer secara sistematik 
+yang kalau kita ingin mengambil, mengupdate, membuat database tersebut, kita dapat menggunakan perintah query.
+Kita harus menggunakan software DBMS (Databse Management System) untuk menjalankan query.
+bit.ly/cs-db-installer
+
+Data Definition Language (DDL)
+Fungsi DDL : Membuat kerangka database (Create, Alter, Drop)
+CREATE adalah perintah untuk membuat sesuatu seperti Database, Function, Table dsb.
+ATER adalah perintah untuk merubah struktur database yang sudah ada sebelumnya.
+DROP adalah perintah untuk menghapus struktur database.
+
+Tipe Data
+CHAR 
+VARCHAR 
+INTEGER
+NUMERIC
+DATE
+
+Data Definition Language (DDL) CREATE
+Data Definition Language (DDL) ALTER & DROP
+
+
+Data Manipulation Language (DML)
+Fungsi DML :
+SELECT adalah perintah untuk menampilkan data.
+INSERT adalah perintah untuk menginputkan data.
+UPDATE adalah perintah untuk mengubah nilai dari data.
+DELETe adalah perintah untuh menghapus data dari database
+bit.ly/dml-codingstudio
+
+DML Basic Select
+DML Select with String Function
+DML Select with Math Function
+DML Select with Date Function
+DML Advanced Select
+
+Agregate
+Agregate adalah sebuah fungsi yangmana kita bisa mengkalkulasikan dari banyak data menjadi satu hasil tunggal.
+MAX
+MIN
+AVG
+COUNT
+SUM
+GROUP BY 
+
+ORDER BY --> Mengurutkan sesuatu
+HAVING --> Where nya agragate
+
+BAB 5 Intro to Subquery & In
+
+SQL VIEW
+
+--ROLE AND PERMISSION
+
+--Admin, bisa melakukan segala hal pada semua table
+
+--User, hanya bisa select pada table
+
+---1. Membuat login
+---2. Memberikan permission
+
+NORMALISASI
+-> Proses pengelompokan atribut data yang bertujuan untuk :
+	Menghilangkan atau setidaknya mengurangi redundansi
+	Menghilangkan anomali
+	Membuat database menjadi efektif dan efisien
+Tahapan Pada Normalisasi
+	1NF - Mengelompokkan beberapa tipe data atau kelompok data yang sejenis agar dapat dipisahkan sehingga anomali data dapat di atasi
+	2NF - Transitive Dependency
+	3NF - Transitive Dependency
